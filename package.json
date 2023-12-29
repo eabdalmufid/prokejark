@@ -1,0 +1,22 @@
+{
+  "name": "nodejstail",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build-tailwind": "SET NODE_ENV=production & tailwindcss build -i styles/tailwindcss.css -o assets/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "nodemon": "^3.0.2",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
+}
